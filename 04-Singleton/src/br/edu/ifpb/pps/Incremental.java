@@ -16,15 +16,20 @@ public class Incremental {
 	*/
 	
 	private static Incremental instance = null;
-	
+	private static int count = 0;
 	
 	private Incremental(){
-		
 	}
 	
 	public static Incremental getInstance(){
 		if(instance == null)
 			instance = new Incremental();
+		count++;
 		return instance;
+	}
+	
+	@Override
+	public String toString(){
+		return String.valueOf(count);
 	}
 }
