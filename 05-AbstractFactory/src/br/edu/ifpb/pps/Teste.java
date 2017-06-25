@@ -1,10 +1,10 @@
 package br.edu.ifpb.pps;
 
-import factory.FabricaComodoBasica;
-import factory.FabricaComodoConforto;
-import factory.FabricaComodoLuxo;
-import interfaces.IFabricaComodo;
-import model.Comodo;
+import br.edu.ifpb.pps.factory.FabricaComodoBasica;
+import br.edu.ifpb.pps.factory.FabricaComodoConforto;
+import br.edu.ifpb.pps.factory.FabricaComodoLuxo;
+import br.edu.ifpb.pps.interfaces.IFabricaComodo;
+import br.edu.ifpb.pps.model.Comodo;
 
 public class Teste {
 	
